@@ -28,8 +28,11 @@ int main(){
         scanf("%d",&base);
         printf("height =");
         scanf("%d",&height);
-        area3=1/2*base*height;
-        printf("Area of the Triangle =%f",area3);
+        area3=0.5*base*height;
+        printf("Area of the Triangle =%.2f",area3);
+    }
+    else {
+        printf("Invalid option selected");
     }
 
 }
